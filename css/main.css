@@ -1,11 +1,11 @@
 /***** ***** navbar ***** *****/
-
-
-
-
+#main-nav {
+  margin-bottom: 0;
+}
 
 
 /***** ***** main (hero) ***** *****/
+#
 
 h3 {
   color: red;
@@ -22,8 +22,17 @@ h4 {
 
 
 
-
 /***** ***** side menu ***** *****/
+#headline-links, button {
+  text-transform: capitalize;
+}
+button {
+  border: solid black 2px;
+  padding: 20px 30px;
+}
+button:hover {
+  opacity: 0.75;
+}
 
 
 /***** ***** footer ***** *****/
