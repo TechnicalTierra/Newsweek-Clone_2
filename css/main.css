@@ -5,7 +5,9 @@
 
 
 /***** ***** main (hero) ***** *****/
-#
+#hero {
+  margin-left: -15px;
+}
 
 h3 {
   color: red;
