@@ -64,21 +64,27 @@ h4 {
 ul {
   list-style: none;
   list-style-type: square;
+  list-style-position: inside;
 }
-/*** unordered list***/
+/*** unordered list ***/
 #headline-links {
   font-weight: bold;
   padding-top: 15px;
+  padding-left: 35px;
+  padding-right: 40px;
 }
 li {
   border-width: 70%;
-  /* margin-bottom: 5px; */
+  color: red;
 }
 .headline-link-item { 
   font-size: 18px;
   padding-top: 10px;
   padding-bottom: 20px;
   border-bottom: solid lightgrey 1px;
+}
+li span {
+  color: black;
 }
 #headline-links::before {
   color: red;
@@ -92,7 +98,7 @@ li {
   justify-content: center;
 }
 button {
-  padding: 15px 50px;
+  padding: 15px 75px;
   color: rgb(150, 146, 146);
   font-size: 17px;
   border: solid black 2px;
