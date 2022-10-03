@@ -1,6 +1,6 @@
 # Newsweek-Clone_2
 Things left to do:
-  1. Main article text box overlay
+  1. 
   2. 
   3. Latest headline border width
   4. Center 2 smaller articles
