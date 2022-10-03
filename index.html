@@ -16,7 +16,7 @@
 
   <!-- Body -->
   <body>
-    <!-- Navbar -->
+    <!-- Header / Navbar -->
     <nav class="topnav navbar navbar-inverse navbar-static-top" role="navigation" id="main-nav">
       <div class="container-fluid">
         <div class="navbar-header hidden-xs">
@@ -79,19 +79,45 @@
       </div>
     </nav>
 
-    <div class="container-fluid main-content">
-      <!-- Main (hero) -->
-      <div class="row">  
-        <div id="hero" class="col-lg-8">
-          <img src="images/main/main0_politician-usa-flag.jpg" alt="" />
-          <h3>U.S.</h3>
-          <h4>Justice Dept. To Force Reforms</h4>
-            <p>"The residents of Ferguson have waited nearly a year for their city to adopt an agreement."</p>
+    <!-- Main -->
+    <div class="container-fluid main-content"><!-- hero section -->
+      <div id="row-one" class="row">
+        <!-- Main Article --> 
+        <div class="col-xs-12 col-md-9">
+          <div id="main-article">
+            <img class="img-responsive" src="images/main/main0_politician-usa-flag.jpg" alt="image of a politician in from of the USA flag" />
+              <div id="main-text-div" class="text-div">
+                <h3>U.S.</h3>
+                <h4>Justice Dept. To Force Reforms</h4>
+                  <p>"The residents of Ferguson have waited nearly a year for their city to adopt an agreement."</p>
+              </div>
+          </div>
+
+          <!-- sub hero / 2 articles below main article -->
+          <div id="row-two" class="row">
+            <div id="subhero" class="col-xs-12 col-sm-6" >
+              <img src="images/main/main1_beyonce.png" alt="Beyoncé on a police car that is submerged in water" />
+              <div class="text-div">
+                <h3>U.S.</h3>
+                <h4>Gravitational Waves Detected, Proving Einstein Right</h4>
+                  <p>"This [was] truly a scientific moon shoot, and we landed on the moon."</p>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-6">
+              <img src="images/main/main2_buildings.jpg" alt="aerial view of a city near the Golden Gate Bridge" />
+              <div class="text-div">
+                <h3 id="sponsor-insight">Sponsor Insight</h3>
+                <h4>The Best Universities of Asia</h4>
+                  <p>"Universities from Asia and Europe are challenging the best schools in the USA. When it comes to choosing the right school then, the options have never been more diverse..."</p>
+              </div>
+            </div>
+          </div>
         </div>
-        
+
+
         <!-- Side Menu -->
-        <div class="row col-lg-4">
-          <h3>Latest Headlines</h3>
+        <div id="row-three" class="row col-xs-12 col-md-3">
+          <h3 id="latest-headline">Latest Headlines</h3>
           <ul id="headline-links">
             <li>Harriet Harman: The New Law on Gender Pay was Labour's</li>
             <li>French Court Will hear Facebook nude painting case</li>
@@ -107,24 +133,7 @@
           <button>See all headlines</button>
         </div>
       </div>
-
-      <!-- sub hero / 2 articles below main article -->
-      <div id="subhero" class="row col-lg-4" >
-        <div id="Beyonce-div">
-          <img src="images/main/main1_beyonce.png" alt="Beyonce on a police car that is submerged in water" />
-          <h3>U.S.</h3>
-          <h4>Gravitational Waves Detected, Proving Einstein Right</h4>
-            <p>"This [was] truly a scientific moon shoot, and we landed on the moon."</p>
-        </div>
-        <div class="col-lg-4">
-          <img src="images/main/main2_buildings.jpg" alt="aerial view of a city near the Golden Gate Bridge" />
-          <h3 id="sponsor-insight">Sponsor Insight</h3>
-          <h4>The Best Universities of Asia</h4>
-            <p>"Universities from Asia and Europe are challenging the best schools in the USA. When it comes to choosing the right school then, the options have never been more diverse..."</p>
-        </div>
-      </div>
     </div>
-
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
