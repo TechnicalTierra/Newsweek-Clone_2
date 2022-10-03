@@ -11,8 +11,23 @@
 
 
 /***** ***** main (hero) ***** *****/
-#hero {
+#row-one {
+  background-color: lightgrey;
+}
+#main-article {
   margin-left: -15px;
+  margin-right: -15px;
+  position: relative;
+}
+.img-responsive {
+  width: 100%;
+}
+#main-text-div {
+  border-top: solid red 5px;
+  bottom: absolute;
+}
+.text-div {
+  text-align: center;
 }
 h3 {
   color: red;
@@ -26,23 +41,39 @@ h4 {
   text-transform: uppercase;
   font-size: 25px;
 }
-
-
 /***** ***** main (sub-hero) ***** *****/
 
 
 
 /***** ***** side menu ***** *****/
+#row-three {
+  background-color: lightsalmon;
+}
+#latest-headline {
+  font-size: 2rem;
+}
 #headline-links, button {
   text-transform: capitalize;
+}
+ul {
+  list-style: none;
+  list-style-type: square;
+}
+#headline-links {
+  font-weight: bold;
+}
+ul#headline-links::before {
+  color: red;
 }
 button {
   border: solid black 2px;
   padding: 20px 30px;
+
 }
 button:hover {
   opacity: 0.75;
 }
 
 
-/***** ***** footer ***** *****/
+
+/***** ***** media breakpoints ***** *****/
