@@ -1,8 +1,4 @@
 # Newsweek-Clone_2
 Things left to do:
-  1. 
-  2. 
-  3. Latest headline border width
-  4. Center 2 smaller articles
-  5. 2 Smaller article border top and middle border
-  6. Light blue overlay (?) of the Sponsor Insight article
+  1. Light blue overlay (?) of the Sponsor Insight article
+  2. Media queries as the viewpoint gets smaller 
