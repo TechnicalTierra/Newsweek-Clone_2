@@ -55,17 +55,18 @@ h4 {
   margin: 0 auto;
   margin-top: 10px;
   padding-top: 25px;
-  display: flex;
-  justify-content: center;
+  /* display: flex;
+  justify-content: center; */
+  /* border-bottom: solid 1px rgb(235, 225, 225); */
 }
 #sub-hero-1 {
   border-right: solid rgb(235, 225, 225) 0.5px;
-  border-bottom: solid rgb(235, 225, 225) 0.5px;
+  /* border-bottom: solid rgb(235, 225, 225) 0.5px; */
   padding-left: 0;
   padding-right: 15px;
 } 
 #sub-hero-2 {
-  /* border-left: solid 0.05px darkgrey;*/
+  /* border-left: solid 0.009px darkgrey; */
   padding-left: 15px;
   padding-right: 0;
   margin-bottom: 15px;
@@ -76,10 +77,11 @@ h4 {
 #sponsor-insight-background {
   background-color: #e6ffff;
   padding-bottom: 80px;
+  border: solid 0.5px #e6ffff;
 }
 
 
-/***** ***** side menu ***** *****/
+/***** ***** side menu /row three ***** *****/
 #row-three {
   margin-left: 0px;
   background-color: white;
@@ -166,8 +168,19 @@ button:hover {
     position: relative;
   }
 }
-/* @media only screen and (max-width: 767px){
-  {
-    
+
+@media only screen and (max-width: 991px){
+  #row-three {
+    border-top: solid rgb(235, 225, 225) 0.5px;
   }
-} */
+} 
+
+@media only screen and (max-width: 767px){
+  .col-sm-6 {
+    display: block;
+    width: 100%;
+  }
+  #sub-hero-1 {
+    border: none;
+  }
+}
